@@ -4,12 +4,12 @@
 
 
 body {
-    margin: 0;
-    font-family: 'Montserrat', sans-serif;
-    height: 100%;
-    background: url(./img/Loon.jpg) repeat;
-    background-size: contain;
-  }
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  height: 100%;
+  background: url(./img/Loon.jpg) repeat;
+  background-size: contain;
+}
 
 .title {
   background-color: bisque;
@@ -18,45 +18,43 @@ body {
   margin: 0 auto;
   background: rgba(246, 211, 171, 0.7);
   border-radius: 20px;
-  
+
 }
 
 /* Main-page */
 .main-page-name {
-    text-align: center;
-    font-size: 40px;
-    line-height: 49px;
-    color: #1B1D1F;
-    /* background: #2400FF; */
+  text-align: center;
+  font-size: 40px;
+  line-height: 49px;
+  color: #1B1D1F;
+  /* background: #2400FF; */
 }
 
 .container {
-    display: flex;
-    gap: 52px;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 40px 80px 0;
-    margin: 0;
+  display: flex;
+  gap: 52px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 40px 80px 0;
+  margin: 0;
 }
 
-.card {
-  /* padding: 5px ;
-    width: 160px;
-    height: 240px;
-    display: flex;
-    justify-content: center;
-    background: rgba(255, 255, 255, 0.4);
-    border-radius: 20px;
-    justify-content: center;
-    border: 2px solid D9D9D9; */
-    
-    
-}
+/* .card {
+  padding: 5px;
+  width: 160px;
+  height: 240px;
+  display: flex;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 20px;
+  justify-content: center;
+  border: 2px solid D9D9D9;
+} */
 
 .card-link:hover {
   background-color: antiquewhite;
   border: 2px solid black;
-  box-shadow:  10px 5px 5px lightcyan;
+  box-shadow: 10px 5px 5px lightcyan;
 }
 
 .card-link {
@@ -76,20 +74,18 @@ body {
 }
 
 .main-name {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 14px;
-    color: #1B1D1F;
-    text-align: center;
-    margin-top: px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 14px;
+  color: #1B1D1F;
+  text-align: center;
+  margin-top: px;
 }
 
 .img-menu {
-flex-grow: 1;
-border-top-left-radius: 20px;
-border-top-right-radius: 20px;
-
-  
+  flex-grow: 1;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 /* .img-menu::after {
@@ -106,4 +102,3 @@ border-top-right-radius: 20px;
     border: 2px solid black;
   }
 }
-
